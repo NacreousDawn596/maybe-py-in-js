@@ -1,8 +1,5 @@
 const encrypt=require('./dependencies/encrypt.js');const python=require('./dependencies/python.js');const os=require('./dependencies/os.js');const datetime=require('./dependencies/datetime.js');const random=require('./dependencies/random.js');const shell=require('shelljs');const fm=require('./dependencies/filesmanager.js');function print(string){console.log(string)};function sleep(time){var now = new Date().getTime();while(new Date().getTime()<now+time*1000){}};
 
-
-
-
 list = [0, 1, 2, 3, 4, 5]
 print('#testing arrays:')
 print(list)
@@ -31,4 +28,4 @@ fm.write('idk.text', 'hewwo, I"m data')
 print(fm.read('idk.text'))
 print('#testing encryption')
 print(encrypt.encrypt('yo son of bitch'))
-print(encrypt.decrypt('wgxsnUa kOmDvNMtPWJFMBVXI ficRktwCY w'))
+//print(encrypt.decrypt('an ecryption'))
